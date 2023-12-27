@@ -17,11 +17,11 @@ function checkGuess() {
 
 
   if (userValue === randomNum) {
-    hint.textContent = "Aight cool";
+    hint.textContent = "Perfect!";
   } else if (userValue < randomNum) {
-    hint.textContent = "Too low! Dumbass.";
+    hint.textContent = "Too low! Please Try Again!";
   } else {
-    hint.textContent = "Too high! Retard.";
+    hint.textContent = "Too high! Please Try Again";
   }
 
   attemptsText.textContent = "Attempts: " + attempts;
